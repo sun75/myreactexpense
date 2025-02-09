@@ -1,7 +1,7 @@
 // src/pages/ExpensePage.js
 import React, { useState, useEffect } from "react";
 import axios from "../services/api";
-import API_BASE_URL from "./config";
+import API_BASE_URL from "../config";
 
 const ExpensePage = () => {
   const [expenses, setExpenses] = useState([]);

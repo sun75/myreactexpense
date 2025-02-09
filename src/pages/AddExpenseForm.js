@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import axios from "axios";
-import API_BASE_URL from "./config";
+import API_BASE_URL from "../config";
 
 const AddExpenseForm = ({ fetchExpenses }) => {
   const [expense, setExpense] = useState({ amount: "", description: "", date: "", category: "" });
